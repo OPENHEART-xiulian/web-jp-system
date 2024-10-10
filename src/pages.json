@@ -1,0 +1,418 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/home/home_page/index",
+			"style": {
+				"navigationBarTitleText": "优驾天下",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/home/comment/comment_list",
+			"style": {
+				"navigationBarTitleText": "我要点评"
+			}
+		},
+		{
+			"path": "pages/home/comment/submit_comment",
+			"style": {
+				"navigationBarTitleText": "发表评价"
+			}
+		},
+		{
+			"path": "pages/home/school/trainAreaDetail",
+			"style": {
+				"navigationBarTitleText": "训练场详情"
+			}
+		},
+		{
+			"path": "pages/home/classType/classTypeDetail",
+			"style": {
+				"navigationBarTitleText": "班型详情"
+			}
+		},
+		{
+			"path": "pages/home/school/trainArea",
+			"style": {
+				"navigationBarTitleText": "训练场"
+			}
+		},
+		{
+			"path": "pages/home/coach/coachDetail",
+			"style": {
+				"navigationBarTitleText": "教练详情"
+			}
+		},
+		{
+			"path": "pages/home/coach/coachSearch",
+			"style": {
+				"navigationBarTitleText": "搜索教练"
+			}
+		},
+		{
+			"path": "pages/home/coach/coachList",
+			"style": {
+				"navigationBarTitleText": "查教练"
+			}
+		},
+		{
+			"path": "pages/home/school/schoolDetail",
+			"style": {
+				"navigationBarTitleText": "驾校详情"
+			}
+		},
+		{
+			"path": "pages/home/school/brief_introduction",
+			"style": {
+				"navigationBarTitleText": "驾校简介"
+			}
+		},
+		{
+			"path": "pages/home/school/schoolList",
+			"style": {
+				"navigationBarTitleText": "查驾校"
+			}
+		},
+		{
+			"path": "pages/home/school/schoolSearch",
+			"style": {
+				"navigationBarTitleText": "搜索驾校"
+			}
+		},
+		{
+			"path": "pages/home/studyNotice/studyNotice",
+			"style": {
+				"navigationBarTitleText": "学车须知"
+			}
+		},
+		{
+			"path": "pages/home/classType/classSearch",
+			"style": {
+				"navigationBarTitleText": "班型搜索"
+			}
+		},
+		{
+			"path": "pages/home/classType/recommendClass",
+			"style": {
+				"navigationBarTitleText": "推荐班型"
+			}
+		},
+		{
+			"path": "pages/login/login_page/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/my/my_page/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/my/switch_identity/index",
+			"style": {
+				"navigationBarTitleText": "选择身份",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/phone_page/index",
+			"style": {
+				"navigationBarTitleText": "手机号登录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/certified_trainees/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/school_trainees/index",
+			"style": {
+				"navigationBarTitleText": "驾校认证",
+				"navigationBarBackgroundColor": "#fff",
+				"mp-weixin": {
+					"usingComponents": {
+						"ocr-navigator": "plugin://ocr-plugin/ocr-navigator"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/my/set_up/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/my/revise_phone/index",
+			"style": {
+				"navigationBarTitleText": "验证原手机号"
+			}
+		},
+		{
+			"path": "pages/my/revise_name/index",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		},
+		{
+			"path": "pages/my/cultivate_msg/index",
+			"style": {
+				"navigationBarTitleText": "培训信息"
+			}
+		},
+		{
+			"path": "pages/my/driver_school/index",
+			"style": {
+				"navigationBarTitleText": "驾校信息"
+			}
+		},
+		{
+			"path": "pages/list/list_page/index",
+			"style": {
+				"navigationBarTitleText": "榜单",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/home/complaint/complaint_page/index",
+			"style": {
+				"navigationBarTitleText": "我要投诉"
+			}
+		},
+		{
+			"path": "pages/home/school/atlas",
+			"style": {
+				"navigationBarTitleText": "驾校图集",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/home/school/car_details",
+			"style": {
+				"navigationBarTitleText": "教练车详情"
+			}
+		},
+		{
+			"path": "pages/home/school/coach_list",
+			"style": {
+				"navigationBarTitleText": "教练团队"
+			}
+		},
+		{
+			"path": "pages/home/school/coach_car",
+			"style": {
+				"navigationBarTitleText": "教练车",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/my_evaluate/index",
+			"style": {
+				"navigationBarTitleText": "我的点评",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/test/index",
+			"style": {
+				"navigationBarTitleText": "测试页"
+			}
+		},
+		{
+			"path": "pages/home/report_page/index",
+			"style": {
+				"navigationBarTitleText": "我要举报",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/home/report_msg/index",
+			"style": {
+				"navigationBarTitleText": "举报信息",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/home/reporting_history/index",
+			"style": {
+				"navigationBarTitleText": "举报历史"
+			}
+		},
+		{
+			"path": "pages/my/complaints/index",
+			"style": {
+				"navigationBarTitleText": "投诉处理",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/school_complaints/process_submission",
+			"style": {
+				"navigationBarTitleText": "处理提交",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/school_complaints/index",
+			"style": {
+				"navigationBarTitleText": "投诉详情"
+			}
+		},
+		{
+			"path": "pages/home/student_evaluate/index",
+			"style": {
+				"navigationBarTitleText": "学员评价",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages_my",
+			"pages": [
+				{
+					"path": "feedback/index",
+					"style": {
+						"navigationBarTitleText": "帮助与反馈"
+					}
+				},
+				{
+					"path": "user_agreement/index",
+					"style": {
+						"navigationBarTitleText": "用户协议",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "about/index",
+					"style": {
+						"navigationBarTitleText": "关于我们"
+					}
+				},
+				{
+					"path": "privacy_policy/index",
+					"style": {
+						"navigationBarTitleText": "隐私政策"
+					}
+				},
+				{
+					"path": "train_list/index",
+					"style": {
+						"navigationBarTitleText": "教练管理",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "coach_details/index",
+					"style": {
+						"navigationBarTitleText": "教练详情"
+					}
+				},
+				{
+					"path": "shift_type/index",
+					"style": {
+						"navigationBarTitleText": "学车班型"
+					}
+				},
+				{
+					"path": "shift_type_details/index",
+					"style": {
+						"navigationBarTitleText": "班型详情"
+					}
+				},
+				{
+					"path": "branch_management/index",
+					"style": {
+						"navigationBarTitleText": "分校管理",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "training_ground/index",
+					"style": {
+						"navigationBarTitleText": "分校训练场",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "training_ground_details/index",
+					"style": {
+						"navigationBarTitleText": "分校训练场详情"
+					}
+				},
+				{
+					"path": "setup_account/index",
+					"style": {
+						"navigationBarTitleText": "设置登录账号"
+					}
+				},
+				{
+					"path": "my_complaint/index",
+					"style": {
+						"navigationBarTitleText": "我的投诉",
+						"navigationBarBackgroundColor": "#fff"
+					}
+				},
+				{
+					"path": "complaint_details/index",
+					"style": {
+						"navigationBarTitleText": "我的投诉"
+					}
+				}
+			]
+		}
+	],
+	"preloadRule": {
+		"pages/my/my_page/index": {
+			"network": "all",
+			"packages": ["pages_my"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"lazyCodeLoading": "requiredComponents",
+	"tabBar": {
+		"custom": true,
+		"color": "#000",
+		"selectedColor": "#fddc13",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/home_page/index",
+				"text": "首页",
+				"iconPath": "/static/img/home.png",
+				"selectedIconPath": "/static/img/select_home.png"
+			},
+			{
+				"pagePath": "pages/list/list_page/index",
+				"text": "榜单",
+				"iconPath": "/static/img/list.png",
+				"selectedIconPath": "/static/img/select_list.png"
+			},
+			{
+				"pagePath": "pages/my/my_page/index",
+				"text": "我的",
+				"iconPath": "/static/img/my.png",
+				"selectedIconPath": "/static/img/select_my.png"
+			}
+		]
+	}
+}

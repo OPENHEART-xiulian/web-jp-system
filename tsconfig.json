@@ -1,0 +1,55 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext", // 指定 ECMAScript 目标版本
+    "module": "ESNext", // 指定使用模块
+    "strict": true, // 启用所有严格类型检查选项
+    "moduleResolution": "node", // 选择模块解析策略
+    "sourceMap": true, // 生成相应的 '.map' 文件
+    "noImplicitAny": true, // 不允许隐式的 any 类型
+    "esModuleInterop": true, // 允许使用 import 引入使用 export = 导出的内容
+    "noFallthroughCasesInSwitch": true, //确保switch语句中的任何非空情况都包含
+    "noUnusedLocals": false, //报告未使用的局部变量的错误
+    "noUnusedParameters": false, //报告函数中未使用参数的错误
+    "skipLibCheck": true, // 跳过对 .d.ts 文件的类型检查, 解决：打包不报错
+    "resolveJsonModule": true, // 允许导入.json文件
+    "isolatedModules": true, // 要求所有文件都是 ES Module 模块。
+    "suppressImplicitAnyIndexErrors": true, // 允许字符串下标表达式
+    "removeComments": true, //删除编译后的所有注释
+    "allowSyntheticDefaultImports": true, // 允许从没有设置默认导出的模块中默认导入。
+    // "allowJs": true, //允许使用js
+    "ignoreDeprecations": "5.0",
+    "jsx": "preserve",
+    "baseUrl": "./", // 用于解析非相对模块名称的基目录
+    "paths": { // 模块名到基于 baseUrl 的路径映射的列表
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [ // 指定要包含在编译中的库文件
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [ // 需要包含的类型声明文件名列表
+      "@dcloudio/types",
+      "vite/client",
+      "@ttou/uview-typings/v3",
+      "@ttou/uview-typings/refs",
+      "miniprogram-api-typings"
+    ]
+  },
+  "exclude": [ //排除的文件
+    "node_modules",
+    "unpackage",
+    "src/**/*.nvue"
+  ],
+  "include": [ //包含的文件
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "typings/**/*.ts",
+    "typings/**/*.d.ts"
+,  ]
+}

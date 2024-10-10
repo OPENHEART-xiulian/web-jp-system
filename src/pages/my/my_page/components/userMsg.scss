@@ -1,0 +1,161 @@
+.XY {
+  background-color: #fff;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+
+.YK,
+.XY_top {
+  display: flex;
+  align-items: center;
+  gap: 40rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+
+.YK {
+  font-weight: bold;
+  font-size: 30rpx;
+}
+
+.XY_top {
+  margin: 0;
+
+  .right_XY {
+    flex: 1;
+
+    .phone {
+      font-size: 28rpx;
+      font-weight: bold;
+  }
+
+    .rz {
+      border: 2rpx solid #fddc13;
+      margin-top: 10rpx;
+      font-size: 20rpx;
+      line-height: 32rpx;
+      border-radius: 16rpx;
+      min-width: 134rpx;
+      text-align: center;
+      font-weight: bold;
+      color: #fddc13;
+      padding: 0 10rpx;
+      box-sizing: border-box;
+  }
+
+    .rzs {
+      width: 134rpx;
+  }
+
+    .label_box {
+      display: flex;
+      align-items: flex-end;
+      gap: 10rpx;
+      flex-wrap: wrap;
+
+      .label {
+        line-height: 40rpx;
+        font-size: 20rpx;
+        padding: 0 20rpx;
+        background-color: green;
+        border-radius: 20rpx;
+        color: #fff;
+    }
+  }
+}
+}
+
+.XY_bottom {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30rpx;
+  z-index: -1;
+
+  .b_list {
+    display: flex;
+    align-items: center;
+    font-size: 26rpx;
+
+    &:nth-child(2) {
+      margin: 30rpx 0;
+  }
+
+    .text1 {
+      margin-left: 10rpx;
+  }
+
+    .text2 {
+      font-weight: bold;
+  }
+}
+
+  .b_right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20rpx;
+    z-index: 0;
+
+    .b_box1 {
+      font-size: 24rpx;
+  }
+
+    .b_box2 {
+      font-size: 24rpx;
+      font-weight: bold;
+      margin-bottom: 20rpx;
+  }
+}
+}
+
+.wbm_box {
+  background-color: #fff;
+  padding: 0 30rpx 30rpx;
+
+  .wbm {
+    color: #969696;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 6rpx;
+    padding: 8rpx 20rpx;
+    font-size: 22rpx;
+}
+}
+
+.tab_list {
+  padding: 30rpx 0 10rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+
+  .head {
+    font-size: 26rpx;
+    color: #aaa;
+    margin-bottom: 20rpx;
+}
+
+  .list_box {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+    .list_box_option {
+      text-align: center;
+      width: 25%;
+      margin-bottom: 20rpx;
+      position: relative;
+      .text_box {
+        margin-top: 20rpx;
+        font-size: 24rpx;
+    }
+  }
+}
+}
